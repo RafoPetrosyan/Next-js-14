@@ -1,8 +1,9 @@
-
+'use client'
 import Link from "next/link";
-import './style.css'
+import './style.scss'
+import withLayout from "hoc/withLayout";
 
-export default function Test() {
+const Services = async () => {
     return (
         <>
             <p className="name">cwdwdwd</p>
@@ -10,3 +11,5 @@ export default function Test() {
         </>
     );
 }
+
+export default withLayout(Services)

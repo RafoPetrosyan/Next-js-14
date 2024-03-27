@@ -1,0 +1,12 @@
+.product-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  .product {
+    width: 250px;
+    height: 200px;
+    border: 1px solid cyan;
+    color: red;
+    font-size: 20px;
+  }
+}
